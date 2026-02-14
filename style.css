@@ -1,76 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html, body{
-    font-size: 62.5%;
-    height: 100%;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
+html,
+body {
+  font-size: 62.5%;
+  height: 100%;
 }
-.creat-post{
-    height: 30rem;
-    width: 20rem;
-    background-color: hsl(31, 66%, 93%);
-    margin: 3rem;
-    padding: 3rem;
-    font-size: 2rem;
-    border-radius: .8rem;
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  background-color: whitesmoke;
+  display: grid;
+
+  /* z-index: 100; */
 }
-.creat-img{
-    height: 7rem;
-    width: 14rem;
-    margin-top: 6rem;
+.creat-post {
+  height: 30rem;
+  width: 20rem;
+  background-color: hsl(31, 66%, 93%);
+  margin: 3rem;
+  padding: 3rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
 }
-.p-color{
-    color: hsl(256, 67%, 59%);
+.creat-img {
+  height: 7rem;
+  width: 14rem;
+  margin-top: 6rem;
 }
-.explanation{
-    height: 30rem;
-    width: 50rem;
-    background-color: hsl(256, 67%, 59%);
-    color: white;
-    font-size: 2.5rem;
-    border-radius: 1rem;
-    margin: 3rem;
-    padding: 5.5rem;
+.p-color {
+  color: hsl(256, 67%, 59%);
 }
-.five-img{
-    height: 3rem;
-    margin-left: 9rem;
+.explanation {
+  height: 30rem;
+  width: 50rem;
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  margin: 3rem;
+  padding: 5.5rem;
 }
-.ps{
-    font-size: 2rem;
-    margin-left: 6rem;
-    color: rgba(255, 255, 255, 0.674);
+.five-img {
+  height: 3rem;
+  margin-left: 9rem;
 }
-.middle{
-    margin: 3rem;
+.ps {
+  font-size: 2rem;
+  margin-left: 6rem;
+  color: rgba(255, 255, 255, 0.674);
 }
-.y-color{
-    color: hsl(39, 100%, 71%);
+.middle {
+  margin: 3rem;
 }
-.schedual-post{
-    height: 45rem;
-    width: 20rem;
-    background-color: hsl(254, 88%, 90%);
-    margin: 3rem;
-    /* padding: 1rem; */
-    padding-top: 1.5rem;
-    padding-left: 2.4rem;
-    border-radius: 1rem;
+.y-color {
+  color: hsl(39, 100%, 71%);
 }
-.top{
-    font-size: 2.5rem;
-    font-weight: 700;
+.schedual-post {
+  height: 50rem;
+  width: 20rem;
+  background-color: hsl(254, 88%, 90%);
+  margin: 3rem;
+  /* padding: 1rem; */
+  padding-top: 1.5rem;
+  padding-left: 2.4rem;
+  border-radius: 1rem;
+  overflow: hidden;
 }
-.bottom{
-    font-size: 1.7rem;
-    font-weight: 400;
+.top {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
 }
-.schedual-img{
-    height: 25rem;
-    
+.bottom {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.schedual-img {
+  height: 25rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.ai-content {
+  height: 30rem;
+  width: 20rem;
+  background-color: hsl(39, 100%, 71%);
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+.ai-img {
+  height: 17rem;
+  margin-top: 0.7rem;
+}
+.ai-text {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.multiple-platforms {
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(238, 238, 238);
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.multiple-img {
+  height: 5rem;
+}
+.mul-text {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
+.consistent-schedule {
+  height: 20rem;
+  width: 20rem;
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 1rem;
+  margin: 3rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+.consistent-img {
+  height: 12rem;
+  margin-top: 0.7rem;
+}
+.consis-text {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.audience-growth {
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(238, 238, 238);
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  /*just for now, then you should change it */
+  margin-top: 10rem;
+}
+.growth-img {
+  height: 6rem;
+}
+.number {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.growth-text {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.grow-followers {
+  height: 20rem;
+  width: 40rem;
+  background-color: hsl(256, 67%, 59%);
+  margin: 3rem;
+  border-radius: 1rem;
+  color: white;
+}
+.follow-img {
+  height: 15rem;
 }
