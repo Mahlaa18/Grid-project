@@ -19,13 +19,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-.grid-main{
+.grid-main {
   display: grid;
   grid-template-columns: 25rem 25rem 25rem 25rem;
-  grid-template-rows: 35rem 25rem 20rem ;
+  grid-template-rows: 35rem 25rem 20rem;
   gap: 1em;
-  
-
 }
 .creat-post {
   height: 35rem;
@@ -198,6 +196,6 @@ body {
   grid-column: 1/2;
   margin-left: 3rem;
 }
-.follow-text{
+.follow-text {
   font-size: 3rem;
 }
